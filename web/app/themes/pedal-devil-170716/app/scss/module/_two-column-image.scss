@@ -1,8 +1,0 @@
-@include b(b-two-column-image){
-	@include e(image){
-		@include max-screen($screen-xs-max) {
-			margin-left: -10px;
-			margin-right: -10px;
-		}
-	}
-}
