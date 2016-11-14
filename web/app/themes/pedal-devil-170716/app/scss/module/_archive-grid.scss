@@ -1,0 +1,198 @@
+@include b(l-archive) {
+	&.l-news-block {
+		.page-counter {
+			display: none;
+		}
+	}
+
+	@include max-screen($screen-xs-max) {
+		padding: 15px;
+	}
+
+	&:before {
+		top: -120px;
+	}
+
+	.row {
+		clear: both;
+	}
+
+	@include max-screen($screen-xs-max) {
+		&:before {
+			top: -40px;
+		}
+	}
+
+	@include e(title) {
+		margin: 0;
+		margin-top: 15px;
+		position: relative;
+		bottom: 15px;
+
+		a {
+			text-decoration: none;
+		}
+
+		@include max-screen($screen-xs-max) {
+			text-align: center;
+		}
+	}
+
+	@include e(post) {
+		margin: 15px 0 30px;
+
+		@include max-screen($screen-xs-max) {
+			background: $brandGrey;
+			padding: 15px;
+			margin-top: 0;
+		}
+
+		@include m(container) {
+			padding: 20px 0 0;
+		}
+
+		@include m(thumb-container) {
+			display: block;
+			width: 100%;
+			min-height: 160px;
+			background-size: cover;
+			background-position: center center;
+		}
+
+		@include m(thumb) {
+			display: block;
+
+			@include min-screen($screen-sm-max){
+				width: 100%;
+				margin-bottom: -8px;
+			}
+
+			@include max-screen($screen-xs-max) {
+				margin: 0 auto;
+				display: block;
+			}
+		}
+
+		@include m(title) {
+			margin: 0;
+			font-size: 24px;
+			line-height: 34px;
+			font-family: $header-font-family;
+
+			a {
+				text-decoration: none;
+				color: $body-font-color;
+
+				&:hover {
+					text-decoration: underline;
+				}
+
+				@include max-screen($screen-xs-max) {
+					color: $white;
+				}
+			}
+		}
+
+		@include m(date) {
+			font-size: 14px;
+			line-height: 14px;
+			margin-bottom: 0;
+			@include max-screen($screen-xs-max) {
+				color: $white;
+			}
+		}
+
+		@include m(meta) {
+			margin: 0;
+			@include max-screen($screen-xs-max) {
+				color: $white;
+			}
+		}
+
+		@include m(excerpt) {
+			font-size: 14px;
+			line-height: 28px;
+
+			@include max-screen($screen-xs-max) {
+				color: $white;
+			}
+		}
+
+		@include m(link) {
+			margin: 0;
+			font-size: 12px;
+			line-height: 30px;
+			text-transform: uppercase;
+			font-family: $header-font-family;
+			color: $brandGrey;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		@include m(featured) {
+			background: $brandGrey;
+
+			@include max-screen($screen-xs-max) {
+				padding: 15px;
+			}
+
+			@include min-screen($screen-sm-max){
+				width: 100%;
+				// padding: 0 0;
+				margin: 0 0px 15px 0;
+			}
+
+			.l-archive__post--thumb-container {
+				display: block;
+				min-height: 200px;
+
+				@include min-screen($screen-sm-max){
+					width: 40%;
+					float: left;
+					padding-left: 15px;
+				}
+			}
+
+			.l-archive__post--container {
+				@include min-screen($screen-sm-max){
+					width: 60%;
+					float: left;
+					padding: 0;
+					padding-left: 30px;
+				}
+
+				.l-archive__post--title {
+					a {
+						color: $white;
+						font-size: 18px;
+					}
+				}
+
+				.l-archive__post--meta {
+					color: $brandGreyLight;
+					font-size: 14px;
+				}
+
+				.l-archive__post--excerpt {
+					color: $white;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+
+	@include e(twitter) {
+		background: $brandGrey;
+		min-height: 600px;
+	}
+
+	.loading img {
+	    margin: 25px auto;
+	    display: block;
+	}
+}
+
+

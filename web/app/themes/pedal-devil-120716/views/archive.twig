@@ -1,0 +1,38 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+	<div class="l-page-section l-archive">
+		<div class="container">
+			<div class="text-center" style="margin-top: 15px;">
+				<select name="secondary-nav" id="secondary-nav" class="fancy-select js-archive-filter">
+					<option value="all">All</option>
+
+					{% for category in categories  %}
+						{% if category.slug == 'uncategorized' %}
+						{% else %}
+							<option value="{{category.slug}}">{{category.title}}</option>
+						}
+						{% endif %}
+					{% endfor %}
+				</select>
+			</div>
+
+			<div class="row l-archive__row">
+
+			</div>
+
+			<div class="loading">
+				<img src="{{site.theme.link}}/app/img/ui/ajax-loader.gif" alt="">
+			</div>
+
+			{% if function('wpmd_is_device') or (function('wpmd_is_ios') and function('wpmd_is_chrome_browser')) %}
+				<div class="text-center">
+					<a href="#" class="b-button b-button--tertiary js-load-more">Load More</a>
+				</div>
+			{% endif %}
+		</div>
+	</div>
+
+	{% include 'footer.twig' %}
+{% endblock %}

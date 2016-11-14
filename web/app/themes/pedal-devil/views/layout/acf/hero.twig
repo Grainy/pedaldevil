@@ -1,0 +1,80 @@
+
+{% if media_item.smaller_title %}
+	{% set smaller = true %}
+{% endif %}
+
+{% if media_item.apply_overlay %}
+	{% set overlay = true %}
+{% endif %}
+
+{% set hasSlides = true %}
+
+{% if postType == 'single' %}
+    {% set hasSlides = false %}
+{% elseif postType == 'home' %}
+    {% set slider = post.get_field('slider') %}
+{% else %}
+    {% set slider = media_item.slider %}
+{% endif %}
+
+{% if hasSlides == true %}
+	<div class="l-page-section l-page-section--flush">
+		<div class="l-hero {{ overlay ? 'l-hero--has-overlay' : '' }}">
+			<div class="flexslider h-100">
+				<ul class="slides h-100">
+					{% for slide in slider %}
+						<li class="l-hero__slide" style="background-image:url('{{slide.image}}')">
+							<div class="container">
+								<div class="row">
+									<div class="l-hero__generic-text">
+										<div class="col-md-5 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+											<h2 {% if smaller %}class="smaller"{% endif %}>{{slide.title}}</h2>
+											{% if slide.sub_title %}
+												<h3>{{slide.sub_title}}</h3>
+											{% endif %}
+											{% if slide.has_button %}
+												{% for button in slide.buttons %}
+													{% if button.button_theme == 'white' %}
+														{% set class = 'b-button--secondary' %}
+													{% endif %}
+												    <a href="{{button.link}}" class="b-button {{class}}">{{button.button_text}}</a>
+												{% endfor %}
+											{% endif %}
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+
+{% else %}
+	{% set bg = site.theme.link~'/app/img/tmp/hero.jpg' %}
+	
+    <div class="l-page-section l-page-section--flush">
+		<div class="l-hero l-hero--single">
+			<div class="flexslider h-100">
+				<ul class="slides h-100">
+					<li class="l-hero__slide" style="background-image:url('{{bg}}')">
+						<div class="container">
+							<div class="row">
+								<div class="l-hero__generic-text">
+									<div class="col-lg-8">
+										<h2 class="smaller">{{post.title}}</h2>
+										<div class="author-info">
+											<p class="by">By {{function('the_author_nickname')}}</p>
+											<p class="on">On {{post.post_date|date("d M Y")}}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </div>
+{% endif %}

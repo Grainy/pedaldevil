@@ -1,0 +1,25 @@
+{% if media_item.header_color == 'light' %}
+	{% set color = 'white' %}
+
+	{% else %}
+
+	{% set color = 'pink' %}
+{% endif %}
+
+
+<div class="l-page-section {% if background %}l-page-section--{{background}} {% endif %} l-page-section--section-header {% if hero %}no-margin{% endif %}">
+	<div class="b-section-header">
+		<div class="container">
+			<div class="row">
+				{% if media_item.header_title %}
+					<h2 class="b-section-header__title b-section-header__title--{{color}} text-center">{{media_item.header_title}}</h2>
+				{% endif %}
+				{% if media_item.header_content %}
+					<div class="b-section-header__content b-section-header__content--{{color}}">
+						{{media_item.header_content}}
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>

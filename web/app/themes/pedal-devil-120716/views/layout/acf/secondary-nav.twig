@@ -1,0 +1,32 @@
+<div class="l-page-section text-center no-margin" {% if padding %}{% endif %}>
+	<div class="b-secondary-nav dont-show-me-on-phones">
+		<ul class="b-secondary-nav__nav">
+			{% if archive %}
+					<li class="b-secondary-nav__nav--link">
+						<a href="#" data-cat="all">All</a>
+					</li>
+				{% for category in categories  %}
+					<li class="b-secondary-nav__nav--link">
+						<a href="#" data-cat="{{category.slug}}">{{category.title}}</a>
+					</li>
+				{% endfor %}
+
+			{% endif %}
+
+			<div class="b-secondary-nav__nav--slider"></div>
+		</ul>
+	</div>
+
+	<div class="b-secondary-nav-mobile show-on-all-phones">
+
+		{% if archive %}
+			<select name="secondary-nav" id="secondary-nav" class="fancy-select js-archive-filter">
+				<option value="all">All</option>
+
+				{% for category in categories  %}
+					<option value="{{category.slug}}">{{category.title}}</option>
+				{% endfor %}
+			</select>
+		{% endif %}
+	</div>
+</div>

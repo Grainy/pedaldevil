@@ -1,0 +1,17 @@
+{% extends "base.twig" %}
+{% block content %}
+
+	<div class="l-page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<h1 class="text-center">{{post.title}}</h1>
+					{{post.content}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% include 'footer.twig' with {'pullup': '120'} %}
+{% endblock %}
+

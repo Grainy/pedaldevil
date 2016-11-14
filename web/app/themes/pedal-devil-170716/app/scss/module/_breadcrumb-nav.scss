@@ -1,0 +1,25 @@
+@include b(b-breadcrumbs){
+	position: relative;
+	padding: 20px 0;
+
+	.trail-items {
+		li {
+			text-transform: uppercase;
+			font-family: $header-font-family;
+
+			@include rem((
+				font-size: 12px,
+				line-height: 20px
+			));
+
+			&:after {
+				content: "\00bb";
+				font-family: $header-font-family;
+			}
+
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+}

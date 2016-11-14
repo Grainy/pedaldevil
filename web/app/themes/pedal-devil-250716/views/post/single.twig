@@ -1,0 +1,33 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+{{function('wpb_set_post_views', post.id)}}
+
+{% include 'layout/acf/hero.twig' with { 'postType': 'single' } %}
+
+{% include 'layout/acf/breadcrumb-nav.twig' %}
+
+<div class="l-page-section l-single-event">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				{{post.content}}
+			</div>
+			<div class="col-md-4 b-popular-posts">
+				<h2>Most Read Articles</h2>
+				<ol>
+					{% for post in popularPosts %}
+						<li class="b-popular-posts__post">
+							<a href="{{post.link}}">{{post.title}}</a><span>{{function('wpb_get_post_views', post.id)}}</span>
+						</li>
+					{% endfor %}
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% include 'footer.twig' with {'pullup': '120'} %}
+{% endblock %}

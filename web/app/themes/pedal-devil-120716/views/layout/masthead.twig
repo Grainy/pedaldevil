@@ -1,0 +1,53 @@
+{% include 'module/mobile-nav.twig' %}
+
+<header class="l-masthead">
+	{% block header %}
+		<div class="container h-100">
+			<div class="row h-100">
+				{% set template = post._wp_page_template %}
+				<a class="l-masthead__logo" href="{{site.link}}" title="{{site.name}}" rel="home"></a>
+
+				<div class="l-masthead__nav dont-show-me-on-tabs">
+					<ul class="l-masthead__nav--menu">
+						{% for item in primaryNav.get_items %}
+							<li class="l-masthead__nav--item {{item.classes | join(' ')}}">
+								<a href="{{item.get_link}}">{{item.title}}</a>
+							</li>
+						{% endfor %}
+					</ul>
+					<ul class="l-masthead__nav--social">
+						{% if options.twitter %}
+							<li><a href="{{options.twitter}}"><span class="icon-twitter"></span></a></li>
+						{% endif %}
+						
+						{% if options.facebook %}
+							<li><a href="{{options.facebook}}"><span class="icon-facebook"></span></a></li>
+						{% endif %}
+
+						{% if options.google_plus %}
+							<li><a href="{{options.google_plus}}"><span class="icon-googleplus"></span></a></li>
+						{% endif %}
+
+						{% if options.youtube %}
+							<li><a href="{{options.youtube}}"><span class="icon-youtube"></span></a></li>
+						{% endif %}
+
+						{% if options.rss_feed %}
+							<li><a href="{{options.rss_feed}}"><span class="icon-rss"></span></a></li>
+						{% endif %}
+
+						{% if options.linkedin %}
+							<li><a href="{{options.linkedin}}"><span class="icon-linkedin"></span></a></li>
+						{% endif %}
+
+						<li>
+							<a href="#" class="js-search"><span class="icon-search"></span></a>
+						</li>
+					</ul>
+				</div>
+
+				<span class="burger-icon show-on-all-tabs"></span>
+			</div>
+		</div>
+	{% endblock %}
+</header>

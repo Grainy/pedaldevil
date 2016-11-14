@@ -1,0 +1,57 @@
+@include b(l-search-overlay) {
+	height:100%;
+	height:100vh;
+
+	width:100%;
+	width:100vw;
+
+	position:fixed;
+	z-index:5000;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	transform: translateY(200%);
+	visibility: hidden;
+	background: rgba(0,0,0,.3);
+	transition: transform .4s ease-in-out;
+
+	&.animated{
+		visibility: visible;
+		transform: translateY(0%);
+	}
+
+	form {
+		width: 75%;
+		height: 25%;
+		position: relative;
+
+		.close {
+			position: absolute;
+			top: -15px;
+			right: -15px;
+			background: $brandGrey;
+			border: 1px solid $white;
+			color: $white;
+			width: 30px;
+			height: 30px;
+			border-radius: 100%;
+			text-align: center;
+			padding-top: 1px;
+			cursor: pointer;
+		}
+
+		input {
+			width: 100%;
+			height: 60px;
+			font-size: 30px;
+			line-height: 30px;
+			border: 2px solid $brandGrey;
+			border-radius: 15px;
+			padding-left: 20px;
+			outline: none;
+
+			@include placeholder {
+				@include placeholder-style-search;
+			}
+		}
+	}
+}

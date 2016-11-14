@@ -1,0 +1,194 @@
+[06-Apr-2016 20:44:57 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 20:48:55 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 20:48:57 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 21:04:39 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 21:05:16 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 22:10:54 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 22:11:54 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 22:13:37 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 21:26:05 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 22:29:40 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 22:34:26 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 22:53:57 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 21:54:31 UTC] PHP Fatal error:  Class 'Timber' not found in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/404.php on line 9
+[06-Apr-2016 21:54:44 UTC] PHP Fatal error:  Class 'Timber' not found in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/404.php on line 9
+[06-Apr-2016 21:55:02 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 22:57:03 Europe/London] PHP Fatal error:  Call to undefined function get_fields() in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php on line 260
+[06-Apr-2016 22:57:16 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 22:57:38 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 23:06:27 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 23:11:51 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[06-Apr-2016 23:11:53 Europe/London] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'The intl extension is needed to use intl-based filters.' in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php:17
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/functions.php(268): Twig_Extensions_Extension_Intl->__construct()
+#1 [internal function]: StarterSite->add_to_twig(Object(Twig_Environment))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/lib/timber-twig.php(189): apply_filters('get_twig', Object(Twig_Environment))
+#4 [internal function]: TimberTwig->add_timber_filters(Object(Twig_Environment))
+#5 /home/dazistgu/public_html/www.bikedevil.net/staging/web/wp/wp-includes/plugin.php(235): call_user_func_array(Array, Array)
+#6 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/pl in /home/dazistgu/public_html/www.bikedevil.net/staging/vendor/twig/extensions/lib/Twig/Extensions/Extension/Intl.php on line 17
+[07-Apr-2016 02:36:11 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "localizeddate" filter in "post/single.twig" at line 67.' in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php:604
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php(458): Twig_ExpressionParser->getFilterNodeClass('localizeddate', 67)
+#1 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php(443): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_Name))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php(302): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_Name))
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php(194): Twig_Exp in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php on line 604
+[07-Apr-2016 02:36:15 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "localizeddate" filter in "post/single.twig" at line 67.' in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php:604
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php(458): Twig_ExpressionParser->getFilterNodeClass('localizeddate', 67)
+#1 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php(443): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_Name))
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php(302): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_Name))
+#3 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php(194): Twig_Exp in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/ExpressionParser.php on line 604
+[10-Apr-2016 21:09:41 UTC] PHP Warning:  require_once(/home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/gravityforms/widget.php): failed to open stream: No such file or directory in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/gravityforms/gravityforms.php on line 85
+[10-Apr-2016 21:09:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/gravityforms/widget.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/gravityforms/gravityforms.php on line 85
+[10-Apr-2016 21:27:23 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "app/js/vendor/loadCSS.js" (looked into: /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil, /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/views, ) in "html-header.twig" at line 37.' in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(131): Twig_Loader_Filesystem->findTemplate('app/js/vendor/l...')
+#1 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Extension/Core.php(1493): Twig_Loader_Filesystem->getSource('app/js/vendor/l...')
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(99): twig_source(Object(Twig_Environme in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[17-Apr-2016 21:38:12 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "app/js/vendor/loadCSS.js" (looked into: /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil, /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/views, ) in "html-header.twig" at line 37.' in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(131): Twig_Loader_Filesystem->findTemplate('app/js/vendor/l...')
+#1 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Extension/Core.php(1493): Twig_Loader_Filesystem->getSource('app/js/vendor/l...')
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(99): twig_source(Object(Twig_Environme in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[17-Apr-2016 21:39:17 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "app/js/vendor/loadCSS.js" (looked into: /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil, /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/themes/bike-devil/views, ) in "html-header.twig" at line 37.' in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(131): Twig_Loader_Filesystem->findTemplate('app/js/vendor/l...')
+#1 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Extension/Core.php(1493): Twig_Loader_Filesystem->getSource('app/js/vendor/l...')
+#2 /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(99): twig_source(Object(Twig_Environme in /home/dazistgu/public_html/www.bikedevil.net/staging/web/app/plugins/timber/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
