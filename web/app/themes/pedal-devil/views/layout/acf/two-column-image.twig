@@ -6,9 +6,17 @@
 	<div class="b-two-column-image">
 		<div class="container">
 			<div class="row">
-				{% if media_item.image %}
+				{% if media_item.image or media_item.image_content %}
 					<div class="col-md-6 col-sm-4 {% if media_item.image_alignment == 'right' %}pull-right{% endif %} no-p-mob b-two-column-image__image">
-						<img src="{{media_item.image.url}}" alt="{{media_item.image.alt}}">
+						<img src="{{TimberImage(media_item.image).url}}" alt="{{media_item.image.alt}}">
+						
+						{% if media_item.image_content %}
+						<div class="b-two-column-download__download">
+							<div class="b-two-column-download__download--content">
+								{{media_item.image_content}}
+							</div>
+						</div>
+						{% endif %}
 					</div>
 				{% endif %}
 

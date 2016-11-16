@@ -211,15 +211,56 @@ blockquote {
 	}
 }
 
-.alignleft {
-	float: left;
-}
-
 .alignright {
-	float: right;
+	text-align: right;
 }
 
 .alignleft {
+	text-align: left;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+img.alignright {
+	float: right;
+	margin-left: 20px;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 20px;
+}
+
+img.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
+figure.alignright {
+	float: right;
+	margin: 0;
+	margin-left: 20px;
+
+	@include max-screen($screen-xs-max) {
+		margin: 0 auto !important;
+		float: none;
+	}
+}
+
+figure.alignleft {
+	float: left;
+	margin: 0;
+	margin-right: 20px;
+
+	@include max-screen($screen-xs-max) {
+		margin: 0 auto !important;
+		float: none;
+	}
+}
+
+figure.aligncenter {
 	display: block;
 	margin: 0 auto;
 }

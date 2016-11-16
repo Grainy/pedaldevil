@@ -34,6 +34,19 @@
 		background-size: cover;
 		background-position: center center;
 		position:relative;
+
+		&.has-overlay {
+			&:after{
+				content:'';
+				background-color: rgba(0,0,0,0.4);
+				position:absolute;
+				z-index:1;
+				top:0;
+				right:0;
+				bottom:0;
+				left:0;
+			}
+		}
 	}
 
 	@include e(overlay) {
@@ -106,6 +119,7 @@
 	}
 
 	@include e(generic-text) {
+		z-index: 1000;
 		@include min-screen($screen-sm) {
 			position: absolute;
 			top: 50%;

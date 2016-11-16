@@ -23,7 +23,7 @@
 			<div class="flexslider h-100">
 				<ul class="slides h-100">
 					{% for slide in slider %}
-						<li class="l-hero__slide" style="background-image:url('{{slide.image}}')">
+						<li class="l-hero__slide {{ slide.apply_overlay ? 'has-overlay' : '' }}" style="background-image:url('{{slide.image}}')">
 							<div class="container">
 								<div class="row">
 									<div class="l-hero__generic-text">

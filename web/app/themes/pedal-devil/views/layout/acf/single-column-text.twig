@@ -1,8 +1,21 @@
-<div class="text-center">
-	{% if media_item.header_title %}
-		<h2 class="b-section-header__title bg--grey">{{media_item.header_title}}</h2>
-	{% endif %}
-	<div class="col-md-6 col-md-offset-3">
-		{{media_item.content}}
+<div class="bg--grey">
+	<div class="container">
+		<div class="row">
+			<div class="cpl-md-12 text-center">
+				{% if media_item.header_title %}
+					<h2 class="b-section-header__title">{{media_item.header_title}}</h2>
+				{% endif %}
+			</div>
+		</div>
 	</div>
 </div>
+<div class="l-page-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				{{media_item.content}}
+			</div>
+		</div>
+	</div>
+</div>
+
