@@ -1,3 +1,16 @@
+.burger-container {
+	p {
+		color: $black;
+		position: absolute;
+		top: 30px;
+		right: 60px;
+
+		@include max-screen($screen-xs-max) {
+			display: none !important;
+		}
+	}
+}
+
 .burger-icon {
 	@include burger(26px, 4px, 5px, $brandGrey, 0, .5s);
 	position: absolute;
@@ -7,6 +20,10 @@
 
     &.menu-active {
         @include burger-to-cross;
+
+        &:after, &:before {
+        	background-color: $brandGreen !important;
+        }
     }
 
     @include respond(desktop) {
@@ -32,6 +49,11 @@
 		@include image-2x("/app/themes/pedal-devil/app/img/logo/logo@2x.png", contain);
 		@extend %rel-center-v;
 		background-size: cover;
+
+		@include max-screen($screen-md-max) {
+			width: 250px;
+			height: 63px;
+		}
 
 		@include max-screen($screen-sm) {
 			margin-left: 20px;
